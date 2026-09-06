@@ -1,0 +1,33 @@
+{
+  "benchmark": [
+    {
+      "Model": "Ridge Regression",
+      "CV RMSE (log)": 0.1207,
+      "CV R\u00b2": 0.9103,
+      "Test R\u00b2": 0.9571,
+      "Test RMSE ($)": "$17,047",
+      "Test MAE ($)": "$11,633"
+    },
+    {
+      "Model": "Random Forest",
+      "CV RMSE (log)": 0.1327,
+      "CV R\u00b2": 0.8916,
+      "Test R\u00b2": 0.932,
+      "Test RMSE ($)": "$21,442",
+      "Test MAE ($)": "$13,664"
+    },
+    {
+      "Model": "XGBoost Regressor",
+      "CV RMSE (log)": 0.1212,
+      "CV R\u00b2": 0.9095,
+      "Test R\u00b2": 0.9542,
+      "Test RMSE ($)": "$18,152",
+      "Test MAE ($)": "$11,721"
+    }
+  ],
+  "xgboost_r2": 0.9541551235358999,
+  "xgboost_rmse_dollar": 18152.22388579427,
+  "xgboost_mae_dollar": 11720.7900390625,
+  "sample_case_actual": 130000.0,
+  "sample_case_pred": 130213.8828125
+}
